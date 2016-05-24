@@ -28,7 +28,7 @@ class ViewController: UIViewController {
                 if (number % contador == 0) {
                     isPrime = false
                 }
-                contador++
+                contador += 1
             }
             if isPrime {
                 answer.text = "El número \(number) ES PRIMO"
